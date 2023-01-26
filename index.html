@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fav icon -->
+  <link rel="shortcut icon" href="./images/fav icon.png" type="image/x-icon">
+  <title>rock papper sissors</title>
+
+  <!-- font awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- normalize  css -->
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles/styles.css" class="">
+</head>
+
+<body>
+  <div class="card-container">
+    <div class="info">
+      <div class="title-container">
+        <span class="title"
+          >ROCK(<i class="fa-solid fa-hand-back-fist"></i>)</span
+        >
+        <span class="title">PAPER(<i class="fa-solid fa-hand"></i>)</span>
+        <span class="title"
+          >SCISSORS(<i class="fa-solid fa-hand-scissors"></i>)</span
+        >
+      </div>
+      <div class="score-container">
+        <p class="score">User score: <strong class="user-score">0</strong></p>
+        <p class="score">Comp score: <strong class="comp-score">0</strong></p>
+      </div>
+    </div>
+    <div class="weapon-container">
+      <button class="btn-weapon" onclick="playGame('Rock👊')">
+        <i class="fa-solid fa-hand-back-fist weapon"></i>
+      </button>
+      <button class="btn-weapon" onclick="playGame('Paper🖐')">
+        <i class="fa-solid fa-hand weapon"></i>
+      </button>
+      <button class="btn-weapon" onclick="playGame('Scissors✌')">
+        <i class="fa-solid fa-hand-scissors weapon"></i>
+      </button>
+    </div>
+    <div class="result-container">
+      <p class="user-choice"></p>
+      <p class="comp-choice"></p>
+      <p class="result"></p>
+      <p class="final-result"></p>
+    </div>
+  </div>
+  <!-- custom css -->
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

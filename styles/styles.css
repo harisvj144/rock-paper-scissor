@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-white: #f4f2f2;
+  --clr-gray: #384d48;
+  --clr-nickel: #6e7271;
+  --clr-green: #acad94;
+  --clr-light-gray: #d8d4d5;
+  --clr-platinum: #e2e2e2;
+  --clr-blue: #4281a4;
+  --clr-verdigris: #48a9a6;
+  --clr-timberwolf: #e4dfda;
+  --clr-tan: #d4b483;
+  --clr-fuzzy: #c1666b;
+  --clr-black: #262525;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-position: center;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-container {
+    width: 25rem;
+    margin: auto;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #01baef;
+  }
+  
+  .score {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #01baef;
+  }
+  
+  .user-score,
+  .comp-score {
+    color: red;
+    font-weight: 900;
+  }
+  
+  .weapon-container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn-weapon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #1ecac5;
+    border: none;
+    font-size: 2.95rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25), -3px -3px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .btn-weapon:hover {
+    transform: scale(1.05) translateY(-5px);
+    background-color: #06f8f0;
+  }
+  
+  .weapon {
+    font-size: 3rem;
+  }
+  
+  .result-container {
+    margin-top: 2rem;
+    text-align: center;
+    min-height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #01baef;
+    font-size: 1.15rem;
+  }
+  
+  .result-container p {
+    margin-bottom: -0.1px;
+    padding-bottom: 7px;
+  }
+  
+  
